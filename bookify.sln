@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AA0720FA-2F3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5D942E26-9682-4BBD-8710-0F0D74233E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain", "Bookify.Domain\Bookify.Domain.csproj", "{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "Bookify.Application\Bookify.Application.csproj", "{9336F684-028A-4703-B2E8-ECCC4E679EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +23,22 @@ Global
 		{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9336F684-028A-4703-B2E8-ECCC4E679EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9336F684-028A-4703-B2E8-ECCC4E679EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9336F684-028A-4703-B2E8-ECCC4E679EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9336F684-028A-4703-B2E8-ECCC4E679EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EEC5D14E-016F-4E0F-8B33-73C8ED6B6109} = {AA0720FA-2F3E-42BD-B705-662CEE894A2D}
+		{9336F684-028A-4703-B2E8-ECCC4E679EEF} = {AA0720FA-2F3E-42BD-B705-662CEE894A2D}
+		{9743B4C6-ABDB-46D8-BECC-2B7AC18525BC} = {AA0720FA-2F3E-42BD-B705-662CEE894A2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A6851F3-9C28-45AC-9A0C-930B48882FC1}
